@@ -2,8 +2,10 @@
 site_name = "omegaUp Documentation"
 site_description = "Comprehensive documentation for omegaUp platform"
 site_author = "omegaUp Team"
-site_url = "https://docs.omegaup.com"
+site_url = "https://antedotee.github.io/zensical-omegaup/"
 copyright = "Copyright &copy; 2025 omegaUp"
+repo_url = "https://github.com/antedotee/zensical-omegaup"
+edit_uri = "edit/main/docs/"
 
 docs_dir = "docs"
 site_dir = "site"
