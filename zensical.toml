@@ -1,0 +1,105 @@
+[project]
+site_name = "omegaUp Documentation"
+site_description = "Comprehensive documentation for omegaUp platform"
+site_author = "omegaUp Team"
+site_url = "https://docs.omegaup.com"
+copyright = "Copyright &copy; 2025 omegaUp"
+
+docs_dir = "docs"
+site_dir = "site"
+use_directory_urls = true
+dev_addr = "localhost:8000"
+
+# Navigation structure
+nav = [
+  { "Home" = "main/Home.md" },
+  { "Getting Started" = [
+    { "I Want to Develop in omegaUp" = "main/I-Want-to-Develop-in-omegaUp.md" },
+    { "Development Environment Setup" = "main/Development-Environment-Setup-Process.md" },
+    { "How to Make a Pull Request" = "main/How-to-Make-a-Pull-Request.md" },
+    { "How to Get Help" = "main/How-to-Get-Help.md" }
+  ]},
+  { "Architecture" = [
+    { "Overview" = "main/Architecture.md" },
+    { "Frontend" = "main/Frontend.md" },
+    { "Grader" = "main/Grader.md" },
+    { "Runner" = "main/Runner.md" },
+    { "Sandbox" = "main/Sandbox.md" },
+    { "omegaUp Internals" = "main/omegaUp-internals.md" }
+  ]},
+  { "API Documentation" = [
+    { "REST API" = "main/REST-API.md" },
+    { "Contests API" = "main/Contests-API.md" },
+    { "Problems API" = "main/Problems-API.md" },
+    { "Runs API" = "main/Runs-API.md" },
+    { "Clarifications API" = "main/Clarifications-API.md" },
+    { "User API" = "main/User-API.md" },
+    { "Controllers" = "main/Controllers.md" }
+  ]},
+  { "Development Guides" = [
+    { "Coding Guidelines" = "main/Coding-guidelines.md" },
+    { "Useful Commands" = "main/Useful-Commands-for-Development.md" },
+    { "How to Use Cypress" = "main/How-to-use-Cypress-in-omegaUp.md" },
+    { "How to Use Git" = "main/How-to-use-git-in-console.md" }
+  ]},
+  { "Problem Creation" = [
+    { "How to Write Problems" = "main/How-to-write-problems-for-omegaUp.md" },
+    { "Manual Zip File Creation" = "main/Manual-for-Zip-File-Creation-for-Problems.md" }
+  ]},
+  { "Google Summer of Code" = [
+    { "GSoC 2025" = "main/GSoC-2025.md" },
+    { "GSoC 2024" = "main/Google-Summer-of-Code-2024.md" },
+    { "GSoC 2023" = "main/Google-Summer-of-Code-2023.md" },
+    { "GSoC 2022" = "main/Google-Summer-of-Code-2022.md" },
+    { "GSoC 2020" = "main/Google-Summer-of-Code-2020-Ideas-List.md" },
+    { "GSoC 2019" = "main/Google-Summer-of-Code-2019-Ideas-List.md" },
+    { "GSoC 2018" = "main/Google-Summer-of-Code-2018-Ideas-List.md" }
+  ]},
+  { "Other Topics" = [
+    { "Arena" = "main/Arena.md" },
+    { "Contests" = "main/Contests.md" },
+    { "Evaluation Environment" = "main/Evaluation-Environment.md" },
+    { "Release & Deployment" = "main/Release-&-deployment.md" },
+    { "Useful Links" = "main/Useful-links.md" }
+  ]}
+]
+
+# Theme configuration
+[project.theme]
+variant = "modern"
+language = "en"
+
+features = [
+  "announce.dismiss",
+  "content.code.annotate",
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow"
+]
+
+# Color schemes with toggle
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+# Typography
+[project.theme.font]
+text = "Inter"
+code = "JetBrains Mono"
+
