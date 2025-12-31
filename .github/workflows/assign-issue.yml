@@ -12,7 +12,7 @@ jobs:
             contents: read
         steps:
             - name: Handle /assign and /unassign commands
-              uses: antedotee/assign-unassign-issue-action@v1
+              uses: antedotee/assign-unassign-issue-action@1.0.1
               with:
                   # Required: GitHub token (always use this)
                   github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -22,10 +22,10 @@ jobs:
 
                   # Optional: Days before auto-unassignment (default: "7")
                   # Use "0.1" for testing (2.4 hours) or "7" for production
-                  auto-unassign-days: "7"
+                  auto-unassign-days: "0.01"
 
                   # Optional: Maximum issues per user (default: "3")
-                  max-assignments-per-user: "3"
+                  max-assignments-per-user: "1"
 
                   # Optional: Prevent self-assignment (default: "false")
                   prevent-self-assignment: "false"
