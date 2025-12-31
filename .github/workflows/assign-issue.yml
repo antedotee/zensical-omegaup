@@ -12,50 +12,44 @@ jobs:
             contents: read
         steps:
             - name: Handle /assign and /unassign commands
-              uses: ./
+              uses: antedotee/assign-unassign-issue-action@v1
               with:
-                  # Required: GitHub token for API access
+                  # Required: GitHub token (always use this)
                   github-token: ${{ secrets.GITHUB_TOKEN }}
 
-                  # Optional: Maximum number of concurrent assignees per issue (default: '1')
+                  # Optional: Maximum concurrent assignees per issue (default: "1")
                   max-concurrent-assignees: "1"
 
-                  # Optional: Number of days after assignment before auto-unassignment (default: '7')
-                  # Supports float values for testing: 0.01 (~14 min), 0.1 (2.4 hours), 0.5 (12 hours), etc.
-                  auto-unassign-days: "0.01"
+                  # Optional: Days before auto-unassignment (default: "7")
+                  # Use "0.1" for testing (2.4 hours) or "7" for production
+                  auto-unassign-days: "7"
 
-                  # Optional: Maximum number of issues a user can have assigned (default: '3')
-                  max-assignments-per-user: "1"
+                  # Optional: Maximum issues per user (default: "3")
+                  max-assignments-per-user: "3"
 
-                  # Optional: Prevent users from assigning themselves - 'true' or 'false' (default: 'false')
+                  # Optional: Prevent self-assignment (default: "false")
                   prevent-self-assignment: "false"
 
-                  # Optional: Enable automated reminder messages - 'true' or 'false' (default: 'false')
+                  # Optional: Enable reminder messages (default: "false")
                   enable-reminder-messages: "true"
 
-                  # Optional: Custom message template for reminders. Use {days} and {totalDays} placeholders
-                  # (default: '{days}/{totalDays} days remaining')
+                  # Optional: Custom reminder template
                   reminder-message-template: "{days}/{totalDays} days remaining"
 
-                  # Optional: Label to add when issue is unassigned (prevents re-assignment) (default: 'unassigned')
+                  # Optional: Label name for unassigned issues (default: "unassigned")
                   unassigned-label: "unassigned"
 
-                  # Optional: Comma-separated list of usernames with no assignment limits (default: '')
-                  unlimited-users: "maintainer1,maintainer2"
+                  # Optional: Users with no limits (comma-separated, no spaces)
+                  unlimited-users: ""
 
-                  # Optional: Message to post when assignment succeeds
-                  # Use {username} (will be replaced with @username) and {days} placeholders
-                  # (default: 'Assigned to you {username}, make sure to remember the {days} day deadline')
+                  # Optional: Custom success message
                   assignment-success-message: "Assigned to you {username}, make sure to remember the {days} day deadline"
 
-                  # Optional: Message when user reaches max assignments
-                  # (default: 'Max assignment reached, first solve the earlier issues or unassign the issue')
+                  # Optional: Custom max assignment message
                   max-assignment-reached-message: "Max assignment reached, first solve the earlier issues or unassign the issue"
 
-                  # Optional: Message when trying to assign after unassignment
-                  # (default: 'This issue was previously unassigned. Please ask the maintainer to assign you the issue manually')
+                  # Optional: Custom unassign request message
                   unassign-request-message: "This issue was previously unassigned. Please ask the maintainer to assign you the issue manually"
 
-                  # Optional: Automatically detect assignment requests from comments and issue descriptions - 'true' or 'false' (default: 'false')
-                  # When enabled, detects phrases like "I want to work on this", "Please assign me", etc.
+                  # Optional: Auto-detect assignment requests (default: "true")
                   suggest-assign-automated-comment: "true"
