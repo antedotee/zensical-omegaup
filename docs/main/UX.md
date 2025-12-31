@@ -58,3 +58,5 @@ iii) view of graph:
 
 A design decision is that UX will be written 100% in HTML/JavaScript/VueJs (regardless of Arena version), so it can be used with both _Arena_ and _Frontend_ for V1, V2 (current version).
 
+
+

@@ -10,3 +10,5 @@ _HappyMeal_ (o _CajitaFeliz_) es el codename para el sistema de administración 
 
 La idea es que _HappyMeal_ esté totalmente autocontenido en un solo .jar, que le des doble click y lo puedas configurar vía web. La base de datos será H2 para evitar dependencias. Todo el concurso será vía web para evitarnos broncas, y podemos usar toda la magia jQueryosa de _Frontend_ para evitar la repetición. Podemos hacer una versión portátil de la zorra de fuego que tenga el certificado autofirmado que usa OmegaUp para que no se queje de esas cosas.
 
+
+

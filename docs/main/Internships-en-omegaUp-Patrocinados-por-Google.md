@@ -219,3 +219,5 @@ Para familiarizarte con omegaUp.com y comenzar a desarrollar te recomendamos seg
 * **Puedo postular a multiples proyectos?** Este año te pedimos que incluyas solo 1 diseño en tu aplicación. Cuando estés programando tu proyecto y si lo terminas muy pronto puedes comenzar a trabajar en un proyecto adicional.
 * **Existen otras oportunidades en omegaUp si no soy seleccionado para GSoC?** Claro que sí. Puedes unirte como voluntario o puedes aplicar a un programa de becario de practicas profesionales si eres estudiante y tu escuela cuenta con algún programa de practicas.
 
+
+

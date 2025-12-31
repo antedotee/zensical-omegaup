@@ -42,3 +42,5 @@ Ninguno
 | -------- |:-------------:| :-----|
 |`status`|string|Si el request fue exitoso, regresa `ok`| 
 
+
+

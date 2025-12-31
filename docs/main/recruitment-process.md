@@ -33,3 +33,5 @@ This training phase is always open to anyone without needing to request it.
 
 Once the person has read all the documentation and resolved 5 issues from the ["Good first issues"](https://github.com/omegaup/omegaup/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22) list + 5 issues from the ["Good second issues"](https://github.com/omegaup/omegaup/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+second+issue%22) list, they will be formally invited to join the engineering team and will be addressed as volunteers with an @omegaup.com email account if they so desire.
 
+
+

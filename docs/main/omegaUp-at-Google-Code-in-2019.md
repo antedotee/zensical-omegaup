@@ -44,3 +44,5 @@
 
 Communication with our organization and fellow candidates is carried through our [slack channel](https://omegaup-slack.herokuapp.com/) (token is 'omegaUp2016'). We encourage you to join it :)
 
+
+

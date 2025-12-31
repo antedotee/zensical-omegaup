@@ -165,3 +165,5 @@ When you consider that your application is ready, don't forget to **send it to [
 * **Can I propose solution to multiple problems from the ideas list?** Of course! We actually expect and encourage candidates to solve one of the problems marked as "easy" and then move onto a more challenging one, both during the solution proposal phase and during the the coding phase.
 * **Are there more opportunities for me if I don't get selected for GSoC?** Of course there are. We always welcome new volunteers who are interested in supporting our efforts. Around the time when proposal submission ends, we will announce a plan to onboard those of you how are interested in becoming volunteers.
 
+
+

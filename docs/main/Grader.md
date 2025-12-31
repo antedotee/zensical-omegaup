@@ -18,3 +18,5 @@ Since the call must be made using certificates, you need to use PHP's cURL libra
 
 The --insecure flag is required because the grader's certificate doesn't include its hostname. If we set localhost as the CN (Common Name) in the grader's certificate, we can remove that flag and everyone will be happy :)
 
+
+

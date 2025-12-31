@@ -10,3 +10,5 @@ The evaluation environment consists of **Virtual Machines** Standard_A1_v2 on Az
   * ghc 7.8.4 (hs)
   * karel.js (kp, kj)
 
+
+

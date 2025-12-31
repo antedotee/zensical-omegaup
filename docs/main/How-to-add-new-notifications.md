@@ -46,3 +46,5 @@ From the `Notifications.vue` component, this is supported through: https://githu
 
 If you have any questions, it's better to post them in the #ingenieria channel on our Slack :)
 
+
+

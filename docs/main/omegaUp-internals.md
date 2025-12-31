@@ -48,3 +48,5 @@ The Broadcaster is responsible for maintaining contest scoreboards and notifying
 
 Once the scoreboard has been refreshed and cached on the server, the Broadcaster notifies all contest participants that the scoreboard has changed and the verdict author. At this point, the `RunContext` records timing data: how long the submission spent in each queue, how long the Runner took to respond, and additional debugging information, and then the `RunContext`gets destroyed.
 
+
+

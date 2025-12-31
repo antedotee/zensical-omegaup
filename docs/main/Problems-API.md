@@ -81,3 +81,5 @@ Usuario loggeado. Si el concurso es privado, el usuario requiere estar invitado.
 |`time`|datetime|Hora de envío del run|
 |`submit_delay`|int|Minutos que pasaron desde el inicio del concurso hasta que se envió el run.|
 
+
+

@@ -64,3 +64,5 @@ Administrador de concurso o superior
 | -------- |:-------------:| :-----|
 |`status`|string|Si el request fue exitoso, regresa `ok`| 
 
+
+

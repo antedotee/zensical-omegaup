@@ -262,3 +262,5 @@ Contest director or higher.
 | -------- |:-------------:| :-----|
 | `status` | string | If the request was successful, returns `ok` |
 
+
+

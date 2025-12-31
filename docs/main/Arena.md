@@ -547,3 +547,5 @@ If logged in, shows the same intro with a "Start contest" button.
 ### GET `/arena/:contest_alias/scoreboard`
 If user can view it, returns the HTML associated with the contest, visually arranging the `/api/problemset/scoreboard/` contents.
 
+
+

@@ -70,3 +70,5 @@ None
 | status  | string | Will return `"ok"` if the request was successful |
 | time    | int    | UNIX timestamp representing the server time      |
 
+
+

@@ -27,3 +27,5 @@ f commit-n
 ```
 Haz `git push -f` y en el PR ya no se van a mostrar los commits que marcaste como `fixup`.
 
+
+
